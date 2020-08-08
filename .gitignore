@@ -1,0 +1,9 @@
+# Executables
+out/
+**/*.out
+**/*.exe
+
+# Others
+.git
+.vscode/settings.json
+.vscode/launch.json

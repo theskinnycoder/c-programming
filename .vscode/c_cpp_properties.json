@@ -1,0 +1,28 @@
+{
+	"configurations": [
+		{
+			"name": "Windows",
+			"includePath": ["${workspaceFolder}/**"],
+			"defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+			"compilerPath": "C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/gcc.exe",
+			"cStandard": "c18",
+			"intelliSenseMode": "gcc-x64"
+		},
+		{
+			"name": "Linux",
+			"includePath": ["${workspaceFolder}/**"],
+			"defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+			"compilerPath": "/usr/bin/gcc",
+			"cStandard": "c18",
+			"intelliSenseMode": "gcc-x64"
+		},
+		{
+			"name": "Mac",
+			"includePath": ["${workspaceFolder}/**"],
+			"defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+			"cStandard": "c18",
+			"intelliSenseMode": "clang-x64"
+		}
+	],
+	"version": 4
+}
